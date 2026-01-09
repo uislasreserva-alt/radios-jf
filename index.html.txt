@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Rádios Ao Vivo – Juiz de Fora</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+  <h1>📻 Rádios Ao Vivo – Juiz de Fora</h1>
+  <input type="text" id="search" placeholder="🔍 Buscar rádio...">
+</header>
+
+<main id="radio-list">
+
+  <!-- Exemplo de Rádio -->
+  <div class="radio-card" data-name="Itatiaia FM">
+    <img src="logos/itatiaia.png" alt="Itatiaia FM">
+    <h2>Itatiaia FM – 105,3</h2>
+    <button class="play-btn">▶️ Tocar</button>
+    <button class="fav-btn">⭐ Favorito</button>
+    <audio src="https://radioonlinebr.com/embed/?id=itatiaiajuizdefora"></audio>
+  </div>
+
+  <div class="radio-card" data-name="Mix FM">
+    <img src="logos/mixfm.png" alt="Mix FM">
+    <h2>Mix FM – 88,9</h2>
+    <button class="play-btn">▶️ Tocar</button>
+    <button class="fav-btn">⭐ Favorito</button>
+    <audio src="https://radioonlinebr.com/embed/?id=mixfmjuizdefora"></audio>
+  </div>
+
+  <div class="radio-card" data-name="Cidade FM">
+    <img src="logos/cidadefm.png" alt="Cidade FM">
+    <h2>Rádio Cidade FM – 100,1</h2>
+    <button class="play-btn">▶️ Tocar</button>
+    <button class="fav-btn">⭐ Favorito</button>
+    <audio src="https://radioonlinebr.com/embed/?id=cidadefmjuizdefora"></audio>
+  </div>
+
+</main>
+
+<section id="about">
+  <h2>🗺 Sobre Juiz de Fora</h2>
+  <p>Juiz de Fora é uma cidade de Minas Gerais com tradição em cultura, música e rádio. Este site reúne todas as rádios ao vivo da cidade em um só lugar.</p>
+</section>
+
+<footer>
+  <p>© 2026 – Rádios de Juiz de Fora</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
